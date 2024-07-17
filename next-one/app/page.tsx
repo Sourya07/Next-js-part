@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main >
-      <div>this my latest  projectsv</div>
+      <div>this my latest  projects</div>
     </main>
   );
 }
