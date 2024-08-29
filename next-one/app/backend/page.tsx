@@ -13,11 +13,17 @@ export default async function Backend() {
 
 
         <>
-            <div>
-                {userData.email} </div>
-            <div>
-                {userData.name}
+            <div className="flex flex-col justify-centre h-screen">
+                <div className="flex justify-center">
+                    <div className="border p-8 rounded">
+                        <div>   email: {userData.email} </div>
+                        name: {userData.name}
+                    </div>
+
+                </div>
+
             </div>
+
 
         </>
     );
